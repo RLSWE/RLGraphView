@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A232DB041F1041A800FD82EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A232DB031F1041A800FD82EB /* AppDelegate.swift */; };
+		A232DB061F1041A800FD82EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A232DB051F1041A800FD82EB /* ViewController.swift */; };
+		A232DB091F1041A800FD82EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A232DB071F1041A800FD82EB /* Main.storyboard */; };
+		A232DB0B1F1041A800FD82EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A232DB0A1F1041A800FD82EB /* Assets.xcassets */; };
+		A232DB0E1F1041A800FD82EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A232DB0C1F1041A800FD82EB /* LaunchScreen.storyboard */; };
+		A232DB191F1041CA00FD82EB /* RLGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = A232DB181F1041CA00FD82EB /* RLGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A232DB001F1041A800FD82EB /* RLGraphViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLGraphViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A232DB031F1041A800FD82EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A232DB051F1041A800FD82EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A232DB081F1041A800FD82EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A232DB0A1F1041A800FD82EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A232DB0D1F1041A800FD82EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A232DB0F1F1041A800FD82EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A232DB161F1041C900FD82EB /* RLGraphViewExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLGraphViewExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		A232DB171F1041CA00FD82EB /* RLGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLGraphView.h; sourceTree = "<group>"; };
+		A232DB181F1041CA00FD82EB /* RLGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A232DAFD1F1041A800FD82EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A232DAF71F1041A800FD82EB = {
+			isa = PBXGroup;
+			children = (
+				A232DB021F1041A800FD82EB /* RLGraphViewExample */,
+				A232DB011F1041A800FD82EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A232DB011F1041A800FD82EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A232DB001F1041A800FD82EB /* RLGraphViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A232DB021F1041A800FD82EB /* RLGraphViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				A232DB031F1041A800FD82EB /* AppDelegate.swift */,
+				A232DB051F1041A800FD82EB /* ViewController.swift */,
+				A232DB071F1041A800FD82EB /* Main.storyboard */,
+				A232DB0A1F1041A800FD82EB /* Assets.xcassets */,
+				A232DB0C1F1041A800FD82EB /* LaunchScreen.storyboard */,
+				A232DB0F1F1041A800FD82EB /* Info.plist */,
+				A232DB171F1041CA00FD82EB /* RLGraphView.h */,
+				A232DB181F1041CA00FD82EB /* RLGraphView.m */,
+				A232DB161F1041C900FD82EB /* RLGraphViewExample-Bridging-Header.h */,
+			);
+			path = RLGraphViewExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A232DAFF1F1041A800FD82EB /* RLGraphViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A232DB121F1041A800FD82EB /* Build configuration list for PBXNativeTarget "RLGraphViewExample" */;
+			buildPhases = (
+				A232DAFC1F1041A800FD82EB /* Sources */,
+				A232DAFD1F1041A800FD82EB /* Frameworks */,
+				A232DAFE1F1041A800FD82EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLGraphViewExample;
+			productName = RLGraphViewExample;
+			productReference = A232DB001F1041A800FD82EB /* RLGraphViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A232DAF81F1041A800FD82EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Roni Leshes";
+				TargetAttributes = {
+					A232DAFF1F1041A800FD82EB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M5Y9RA93N2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A232DAFB1F1041A800FD82EB /* Build configuration list for PBXProject "RLGraphViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A232DAF71F1041A800FD82EB;
+			productRefGroup = A232DB011F1041A800FD82EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A232DAFF1F1041A800FD82EB /* RLGraphViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A232DAFE1F1041A800FD82EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A232DB0E1F1041A800FD82EB /* LaunchScreen.storyboard in Resources */,
+				A232DB0B1F1041A800FD82EB /* Assets.xcassets in Resources */,
+				A232DB091F1041A800FD82EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A232DAFC1F1041A800FD82EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A232DB191F1041CA00FD82EB /* RLGraphView.m in Sources */,
+				A232DB061F1041A800FD82EB /* ViewController.swift in Sources */,
+				A232DB041F1041A800FD82EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A232DB071F1041A800FD82EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A232DB081F1041A800FD82EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A232DB0C1F1041A800FD82EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A232DB0D1F1041A800FD82EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A232DB101F1041A800FD82EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A232DB111F1041A800FD82EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A232DB131F1041A800FD82EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M5Y9RA93N2;
+				INFOPLIST_FILE = RLGraphViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RoniLeshes.RLGraphViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RLGraphViewExample/RLGraphViewExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A232DB141F1041A800FD82EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M5Y9RA93N2;
+				INFOPLIST_FILE = RLGraphViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RoniLeshes.RLGraphViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RLGraphViewExample/RLGraphViewExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A232DAFB1F1041A800FD82EB /* Build configuration list for PBXProject "RLGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232DB101F1041A800FD82EB /* Debug */,
+				A232DB111F1041A800FD82EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A232DB121F1041A800FD82EB /* Build configuration list for PBXNativeTarget "RLGraphViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232DB131F1041A800FD82EB /* Debug */,
+				A232DB141F1041A800FD82EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A232DAF81F1041A800FD82EB /* Project object */;
+}
