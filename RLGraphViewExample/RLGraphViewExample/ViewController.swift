@@ -15,8 +15,10 @@ class ViewController: UIViewController, RLGraphViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.graphView.dataSource = self
-        self.graphView.xAxisDescriberText = "Months"
-        self.graphView.yAxisDescriberText = "Weight (kg)"
+        self.graphView.xAxisDescriptionText = "Months"
+        self.graphView.yAxisDescriptionText = "Weight (kg)"
+        self.graphView.edgeInsets = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 0)
+        
     }
     
     override func didReceiveMemoryWarning() {

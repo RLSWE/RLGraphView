@@ -28,10 +28,10 @@ extern NSString *const kGraphLineAttributeIdentifier;
 -(BOOL)shouldShowNumberLabelsInGraphView:(RLGraphView*)graphView;
 -(NSInteger)xAxisSeparatorIntervalForGraphView:(RLGraphView*)graphView;
 
-//-(NSString*)yAxisDescriberTextInGraphView:(GraphView*)graphView;
-//-(NSString*)xAxisDescriberTextInGraphView:(GraphView*)graphView;
-//-(NSDictionary*)yAxisDescriberDictionaryInGraphView:(GraphView*)graphView;
-//-(NSDictionary*)xAxisDescriberDictionaryInGraphView:(GraphView*)graphView;
+//-(NSString*)yAxisDescriptionTextInGraphView:(GraphView*)graphView;
+//-(NSString*)xAxisDescriptionTextInGraphView:(GraphView*)graphView;
+//-(NSDictionary*)yAxisDescriptionDictionaryInGraphView:(GraphView*)graphView;
+//-(NSDictionary*)xAxisDescriptionDictionaryInGraphView:(GraphView*)graphView;
 // ****** ------ <Background Grid/> ------ ******
 
 
@@ -94,10 +94,10 @@ extern NSString *const kGraphLineAttributeIdentifier;
 @property (nonatomic,strong)NSArray *yAxisValues;
 @property (nonatomic,strong)NSArray *xAxisValues;
 
-@property (nonatomic, strong)NSString *yAxisDescriberText;
-@property (nonatomic, strong)NSString *xAxisDescriberText;
-@property (nonatomic, strong)NSMutableDictionary *yAxisDescriberTextAttributes;
-@property (nonatomic, strong)NSMutableDictionary *xAxisDescriberTextAttributes;
+@property (nonatomic, strong)NSString *yAxisDescriptionText;
+@property (nonatomic, strong)NSString *xAxisDescriptionText;
+@property (nonatomic, strong)NSMutableDictionary *yAxisDescriptionTextAttributes;
+@property (nonatomic, strong)NSMutableDictionary *xAxisDescriptionTextAttributes;
 
 //@property (nonatomic) CGPoint lastCheckUpPoint;
 
